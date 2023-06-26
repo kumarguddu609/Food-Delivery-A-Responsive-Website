@@ -13,7 +13,7 @@
 .nav-logo {
   height: 70px;
   width: 90px;
-  background-image: url("./logo.png");
+  background-image: url("../logo.png");
   margin: 10px 20px;
   background-size: cover;
 }
@@ -34,7 +34,7 @@
   color: black;
 }
 .hero-img {
-  background-image: url("./bg1.jpg");
+  background-image: url("../bg1.jpg");
   height: 500px;
   background-size: cover;
   align-items: center;
