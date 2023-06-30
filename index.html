@@ -22,6 +22,18 @@
 
       </div>
     </div>
+    <script>
+      window.addEventListener('scroll', function() {
+        var navbar = document.querySelector('.navbar');
+        var sticky = navbar.offsetTop;
+      
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add('sticky');
+        } else {
+          navbar.classList.remove('sticky');
+        }
+      });
+    </script>
     <div class="hero-img">
       <div class="hero-msg">
         <h1 class="h-primary">Welcome to Fast Food Delivery</h1>
